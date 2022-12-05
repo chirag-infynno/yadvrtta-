@@ -13,7 +13,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { resetSearchData, searchEventApi } from "../../Redux/event/searchEvent";
 import moment from "moment";
 import { getAccessToken, getDateArray } from "../../utils/helper";
-import { DropDown } from "../../components/dropdown/dropdown";
+import { DropDown } from "../../components/dropdown/DropDown";
 import classNames from "classnames";
 import { useRef } from "react";
 import { AiOutlineClose } from "react-icons/ai";

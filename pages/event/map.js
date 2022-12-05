@@ -14,7 +14,7 @@ import { resetSearchData, searchEventApi } from "../../Redux/event/searchEvent";
 import moment from "moment";
 import { getDateArray } from "../../utils/helper";
 import ReactGoogleAutocomplete from "react-google-autocomplete";
-import { DropDown } from "../../components/dropdown/dropdown";
+import { DropDown } from "../../components/dropdown/DropDown";
 import classNames from "classnames";
 import { useRef } from "react";
 import {
