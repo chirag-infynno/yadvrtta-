@@ -1,7 +1,7 @@
 import "../styles/globals.css";
 import Router, { useRouter } from "next/router";
 import { useState } from "react";
-import Loader from "../components/loader/Loader";
+import Loader from "../components/Loader/Loader";
 import { Provider } from "react-redux";
 import store from "../Redux/store";
 import { AdminLayout } from "../components/layout/AdminLayout";
