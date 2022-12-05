@@ -8,7 +8,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { eventBookApi } from "../../Redux/event/eventBook";
 import { searchEventApi } from "../../Redux/event/searchEvent";
 import { getDateArray } from "../../utils/helper";
-import { DropDown } from "../dropdown/dropdown";
+import { DropDown } from "../dropdown/DropDown";
 import CustomButton from "../forms/CustomButton";
 
 const date = getDateArray().filter((data, index) => {

@@ -15,7 +15,7 @@ import { getDateArray } from "../../utils/helper";
 import ReactGoogleAutocomplete, {
   usePlacesWidget,
 } from "react-google-autocomplete";
-import { DropDown } from "../../components/dropdown/dropdown";
+import { DropDown } from "../../components/dropdown/DropDown";
 import classNames from "classnames";
 import { useRef } from "react";
 import { AiOutlineClose } from "react-icons/ai";
